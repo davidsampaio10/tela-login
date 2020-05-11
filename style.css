@@ -1,0 +1,38 @@
+body {
+	background-image: url("modelo.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+    
+    background-size: cover;
+    background:
+        /* top, transparent black, faked with gradient */ 
+        linear-gradient(
+          rgba(0, 0, 0, 0.7), 
+          rgba(0, 0, 0, 0.7)
+        ),
+
+		}
+
+.mv-auto{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+form .btn{
+    font-size: 80%;
+    border-radius: 5rem;
+   
+    font-weight: bold;
+    padding: 0.65rem;
+
+}
+
+
+.form-group input{
+   height: auto;
+   border-radius:  2rem;
+   
+    font-weight: bold;
+    padding: 0.65rem;
+}
